@@ -50,7 +50,7 @@ const Banner = () => {
         <div className="w-screen h-screen relative">
           <Image
             src={bannerone}
-            alt="bannerone"
+            alt="Tech Strategy and Cloud Design"
             className="w-screen h-screen relative"
             priority
           />
@@ -59,10 +59,50 @@ const Banner = () => {
         <div className="w-screen h-screen relative">
           <Image
             src={bannertwo}
-            alt="bannertwo"
+            alt="Databricks"
             className="w-screen h-screen relative"
           />
           <BannerText title="Databricks Analytics Accelerators & Optimized platform" />
+        </div>
+        <div className="w-screen h-screen relative">
+          <Image
+            src={bannerthree}
+            alt="Snowflake"
+            className="w-screen h-screen relative"
+          />
+          <BannerText title="Snowflake Warehouse Accelerators & Solutions" />
+        </div>
+        <div className="w-screen h-screen relative">
+          <Image
+            src={bannerfour}
+            alt="MongoDB"
+            className="w-screen h-screen relative"
+          />
+          <BannerText title="MongoDB powered infrastructure and application managed services" />
+        </div>
+        <div className="w-screen h-screen relative">
+          <Image
+            src={bannerfive}
+            alt="CESB"
+            className="w-screen h-screen relative"
+          />
+          <BannerText title="Composite Enteprise Service Bus [CESB]" />
+        </div>
+        <div className="w-screen h-screen relative">
+          <Image
+            src={bannersix}
+            alt="AMP"
+            className="w-screen h-screen relative"
+          />
+          <BannerText title="Adaptive metadata driven data pipelines [AMP]" />
+        </div>
+        <div className="w-screen h-screen relative">
+          <Image
+            src={bannerseven}
+            alt="OP-CUDA"
+            className="w-screen h-screen relative"
+          />
+          <BannerText title="GPU optimized processing design and engineering solutions [OP-CUDA]" />
         </div>
       </Slider>
     </div>
