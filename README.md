@@ -10,7 +10,7 @@ __A.I powered software and hardware solutions__
 4. MongoDB powered infrastructure and application managed services
 5. Composite Enteprise Service Bus [CESB]
 6. Adaptive metadata driven data pipelines [AMP]
-7. GPU optimized processing unit design and software engineering solutions [OP-CUDA]
+7. GPU optimized processing design and engineering solutions [OP-CUDA]
 
 ## Getting started to run the NextJs app 
 

@@ -5,6 +5,8 @@ import {
   BsLinkedin,
   BsFacebook,
   BsReddit,
+  BsInstagram,
+  BsTwitter,
 } from "react-icons/bs";
 import Container from "./Container";
 import Logo from "./Logo";
@@ -20,29 +22,19 @@ const Footer = () => {
             Kernel Domain Inc.
           </p>
           <div className="flex items-center gap-x-4">
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
-              <span className="socialLink">
-                <BsYoutube />
-              </span>
-            </a>
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+            <a href="https://github.com/EquityMarketCo" target="_blank">
               <span className="socialLink">
                 <BsGithub />
               </span>
             </a>
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+            <a href="https://www.linkedin.com/company/equitym" target="_blank">
               <span className="socialLink">
                 <BsLinkedin />
               </span>
             </a>
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+            <a href="https://twitter.com/kerneldomain" target="_blank">
               <span className="socialLink">
-                <BsFacebook />
-              </span>
-            </a>
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
-              <span className="socialLink">
-                <BsReddit />
+                <BsTwitter />
               </span>
             </a>
           </div>
