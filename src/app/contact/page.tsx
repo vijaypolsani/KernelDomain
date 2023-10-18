@@ -120,7 +120,7 @@ export default function Contact() {
               />
               {errors.name && (
                 <div className="mt-1 text-red-600">
-                  <small>{errors.name.message}</small>
+                  <small>{errors.toString()}</small>
                 </div>
               )}
             </div>
@@ -150,7 +150,7 @@ export default function Contact() {
               />
               {errors.email && (
                 <div className="mt-1 text-red-600">
-                  <small>{errors.email.message}</small>
+                  <small>{errors.toString()}</small>
                 </div>
               )}
             </div>
@@ -171,7 +171,7 @@ export default function Contact() {
               {errors.message && (
                 <div className="mt-1 text-red-600">
                   {" "}
-                  <small>{errors.message.message}</small>
+                  <small>{errors.toString()}</small>
                 </div>
               )}
             </div>
