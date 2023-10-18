@@ -1,20 +1,14 @@
-const isGithubActions = process.env.GITHUB_ACTIONS || false
-
-let assetPrefix = ''
-let basePath = '/'
-
-if (isGithubActions) {
-  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
-
-  assetPrefix = `/${repo}/`
-  basePath = `/${repo}`
-}
-
-module.exports = {
-  assetPrefix: assetPrefix,
-  basePath: basePath,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
-    loader: 'imgix',
-    path: 'the "domain" of your Imigix source',
+    domains: [
+      "images.pexels.com",
+      "img.freepik.com",
+      "avatars.githubusercontent.com",
+      "lh3.googleusercontent.com",
+    ],
   },
-}
+  output: 'export',
+};
+
+module.exports = nextConfig;
