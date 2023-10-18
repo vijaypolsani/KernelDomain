@@ -40,12 +40,12 @@ export default function Contact() {
     },
     onSuccess: (msg, data) => {
       setIsSuccess(true);
-      setMessage(msg);
+      setMessage(true);
       reset();
     },
     onError: (msg, data) => {
       setIsSuccess(false);
-      setMessage(msg);
+      setMessage(true);
     }
   });
 
