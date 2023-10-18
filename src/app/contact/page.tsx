@@ -9,7 +9,7 @@ import {
   EnvelopeIcon,
   PhoneIcon
 } from "@heroicons/react/24/outline";
-export default function Contact({ settings }) {
+export default function Contact() {
   const {
     register,
     handleSubmit,
@@ -23,6 +23,12 @@ export default function Contact({ settings }) {
   });
   const [isSuccess, setIsSuccess] = useState(false);
   const [message, setMessage] = useState(false);
+  const settings = {
+    "w3ckey" : "",
+    "email": "contact@dummy.com",
+    "phone": "111-111-1111"
+
+  }
   // Please update the Access Key in the Sanity CMS - Site Congig Page
   const apiKey = settings?.w3ckey || "YOUR_ACCESS_KEY_HERE";
 
@@ -30,7 +36,7 @@ export default function Contact({ settings }) {
     access_key: apiKey,
     settings: {
       from_name: "Kernel Domain Website Template",
-      subject: "REQ from Kernel Domain Website"
+      subject: "RFQ from Kernel Domain Website"
     },
     onSuccess: (msg, data) => {
       setIsSuccess(true);
