@@ -22,12 +22,12 @@ const Footer = () => {
             Kernel Domain Inc.
           </p>
           <div className="flex items-center gap-x-4">
-            <a href="https://github.com/EquityMarketCo" target="_blank">
+            <a href="https://github.com/Kernel-Domain" target="_blank">
               <span className="socialLink">
                 <BsGithub />
               </span>
             </a>
-            <a href="https://www.linkedin.com/company/equitym" target="_blank">
+            <a href="https://www.linkedin.com/company/kernelsoftware" target="_blank">
               <span className="socialLink">
                 <BsLinkedin />
               </span>
@@ -60,14 +60,9 @@ const Footer = () => {
                 About
               </li>
             </Link>
-            <Link href={"/team"}>
-              <li className="hover:text-orange-500 cursor-pointer duration-200">
-                Team
-              </li>
-            </Link>
             <Link href={"/news"}>
               <li className="hover:text-orange-500 cursor-pointer duration-200">
-                Latest News
+                blogs
               </li>
             </Link>
             <Link href={"/contact"}>

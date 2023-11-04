@@ -5,12 +5,11 @@ Kernel Domain provides software solutions, infrastructure and services to hyper-
 __A.I powered software and hardware solutions__
 
 1. Tech Strategy and Design solutions for Multi-Cloud [Azure-First], Hybrid & On-Premise 
-2. Databricks Analytics Accelerators & Optimized platform
+2. Databricks Lakehouse to Warehouse for Machine Learned modeling consumption blueprints & managed solution platform
 3. Snowflake Warehouse Accelerators & Solutions
-4. MongoDB powered infrastructure and application managed services
-5. Composite Enteprise Service Bus [CESB]
-6. Adaptive metadata driven data pipelines [AMP]
-7. GPU optimized processing design and engineering solutions [OP-CUDA]
+4. Composite Enteprise Service Bus [CESB]
+5. Adaptive metadata driven data pipelines [AMP]
+6. GPU optimized application rendering & data rendering solutions [OP-CUDA]
 
 ## Getting started to run the NextJs app 
 

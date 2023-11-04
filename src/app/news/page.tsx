@@ -6,12 +6,12 @@ const AboutPage = () => {
   return (
     <Container className="flex items-center justify-center py-20">
       <div className="min-h-[400px] flex flex-col items-center justify-center gap-y-5">
-        <h2 className="text-4xl font-bold">
-          Thank you for visiting Kernel Domain
+        <h2 className="text-2xl font-bold">
+          Technology Articles, Whitepapers & Industry trends 
         </h2>
-        <h2 className="text-2xl font-bold text-slate-500">
+        <p className="text-md font-bold text-slate-500">
           Home of the software and hardware driven innovations
-        </h2>
+        </p>
         <Link
           href={"/"}
           className="bg-black text-slate-100 w-44 h-12 rounded-full text-base font-semibold flex items-center justify-center hover:bg-orange-600 hover:text-white duration-200"

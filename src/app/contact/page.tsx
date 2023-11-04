@@ -25,9 +25,7 @@ export default function Contact() {
   const [message, setMessage] = useState(false);
   const settings = {
     "w3ckey" : "",
-    "email": "contact@dummy.com",
-    "phone": "111-111-1111"
-
+    "email": "contact@kerneldomain.com",
   }
   // Please update the Access Key in the Sanity CMS - Site Congig Page
   const apiKey = settings?.w3ckey || "YOUR_ACCESS_KEY_HERE";
@@ -65,17 +63,19 @@ export default function Contact() {
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
               <MapPinIcon className="w-4 h-4" />
               <span>
-              1503 Sunny Ct
-              Walnut Creek, CA 94595
+                San Francisco, CA 94102
               </span>
             </div>
           <div className="mt-5">
             <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
               <MapPinIcon className="w-4 h-4" />
               <span>
-                Plot 50, Cyber Village Rd 3, 
-                Kondapur, Hyderabad, 
-                Telangana - 500084
+                Plot 50, Road No 3, Cyber Village
+                Kondapur, Hyderabad, Telangana - 500084
+              </span>
+            </div>
+            <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
+              <span>
               </span>
             </div>
             {settings?.email && (
@@ -86,12 +86,7 @@ export default function Contact() {
                 </a>
               </div>
             )}
-            {settings?.phone && (
-              <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
-                <PhoneIcon className="w-4 h-4" />
-                <a href={`tel:${settings.phone}`}>{settings.phone}</a>
-              </div>
-            )}
+
           </div>
         </div>
         <div>
