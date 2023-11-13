@@ -10,7 +10,7 @@ const nextConfig = {
       "lh3.googleusercontent.com",
     ],
   },
-  distDir: 'out',
+  distDir: 'build',
 };
 
 module.exports = nextConfig;
