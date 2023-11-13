@@ -2,7 +2,7 @@ import Container from "@/components/Container";
 import Link from "next/link";
 import React from "react";
 
-const AboutPage = () => {
+export default function FirstPost(){
   return (
     <Container className="flex items-center justify-center py-20">
       <div className="min-h-[400px] flex flex-col items-center justify-center gap-y-5">
@@ -10,7 +10,7 @@ const AboutPage = () => {
           Technology Articles, Whitepapers & Industry trends 
         </h2>
         <p className="text-md font-bold text-slate-500">
-          Content from Krapi
+          Content from STRAPI CMS
         </p>
         <Link
           href={"/"}
@@ -22,5 +22,3 @@ const AboutPage = () => {
     </Container>
   )
 }
-
-export default AboutPage;

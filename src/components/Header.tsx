@@ -9,9 +9,9 @@ const Header = () => {
   return (
     <div className="bg-bodyColor h-20 top-0 sticky z-50">
       <Container className="h-full flex items-center md:gap-x-5  md:justify-start">
-        <Logo />
+          <Logo />
         <h2 className="text-md whitespace-nowrap text-blue-600 font-semibold hover:text-orange-500 cursor-pointer duration-200">
-          Kernel Domain
+        <Link href={"/"}> Kernel Domain </Link>
         </h2>
         <Link href={"/products"}> Products </Link>
         <Link href={"/about"}> About </Link>
