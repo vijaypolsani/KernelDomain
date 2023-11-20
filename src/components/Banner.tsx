@@ -74,14 +74,6 @@ const Banner = () => {
         </div>
         <div className="w-screen h-screen relative">
           <Image
-            src={bannerfour}
-            alt="MongoDB"
-            className="w-screen h-screen relative"
-          />
-          <BannerText title="MongoDB powered infrastructure and application managed services" />
-        </div>
-        <div className="w-screen h-screen relative">
-          <Image
             src={bannerfive}
             alt="CESB"
             className="w-screen h-screen relative"
