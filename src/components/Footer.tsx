@@ -60,9 +60,9 @@ const Footer = () => {
                 About
               </li>
             </Link>
-            <Link href={"/news"}>
+            <Link href={"/disclaimer"}>
               <li className="hover:text-orange-500 cursor-pointer duration-200">
-                blogs
+                Disclaimer
               </li>
             </Link>
             <Link href={"/contact"}>
