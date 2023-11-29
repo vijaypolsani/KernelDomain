@@ -47,7 +47,7 @@ const Banner = () => {
   return (
     <div className="relative">
       <Slider {...settings}>
-        <div className="w-screen h-screen relative">
+        <div className="w-screen h-screen relative pt-6 pl-12 pr-12">
           <Image
             src={bannerone}
             alt="Tech Strategy and Cloud Design"
@@ -56,7 +56,7 @@ const Banner = () => {
           />
           <BannerText title="Tech Strategy and Cloud design for Azure, Multi-Cloud & On-Premise" />
         </div>
-        <div className="w-screen h-screen relative">
+        <div className="w-screen h-screen relative pt-6 pl-12 pr-12">
           <Image
             src={bannertwo}
             alt="Databricks"
@@ -64,7 +64,7 @@ const Banner = () => {
           />
           <BannerText title="Databricks Analytics Accelerators & Optimized platform" />
         </div>
-        <div className="w-screen h-screen relative">
+        <div className="w-screen h-screen relative pt-6 pl-12 pr-12">
           <Image
             src={bannerthree}
             alt="Snowflake"
@@ -72,7 +72,7 @@ const Banner = () => {
           />
           <BannerText title="Snowflake Warehouse Accelerators & Solutions" />
         </div>
-        <div className="w-screen h-screen relative">
+        <div className="w-screen h-screen relative pt-6 pl-12 pr-12">
           <Image
             src={bannerfive}
             alt="CESB"
@@ -80,7 +80,7 @@ const Banner = () => {
           />
           <BannerText title="Composite Enteprise Service Bus [CESB]" />
         </div>
-        <div className="w-screen h-screen relative">
+        <div className="w-screen h-screen relative pt-6 pl-12 pr-12">
           <Image
             src={bannersix}
             alt="AMP"
@@ -88,7 +88,7 @@ const Banner = () => {
           />
           <BannerText title="Adaptive metadata driven data pipelines [AMP]" />
         </div>
-        <div className="w-screen h-screen relative">
+        <div className="w-screen h-screen relative pt-6 pl-12 pr-12">
           <Image
             src={bannerseven}
             alt="OP-CUDA"

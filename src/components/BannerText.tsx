@@ -32,7 +32,7 @@ const BannerText = ({ title }: Props) => {
           transition={{ duration: 0.6 }}
           className="text-2xl text-slate-50"
         >
-          Technology strategy that guides through changing times and aligns with the vision of the future.
+          Technology strategy that guides through changing times and aligns future roadmap.
         </motion.h3>
         <motion.div
           initial={{ y: 50, opacity: 0 }}

@@ -10,7 +10,7 @@ const AboutPage = () => {
           Technology Articles, Whitepapers & Industry trends 
         </h2>
         <p className="text-md font-bold text-slate-500">
-          Content from Krapi
+          Content from Strapi CMS
         </p>
         <Link
           href={"/"}
