@@ -56,7 +56,7 @@ const Banner = () => {
             className="w-screen h-screen relative responsive"
             priority
           />
-          <BannerText title="Tech Strategy and Cloud design for Azure, Multi-Cloud & On-Premise" />
+          <BannerText title="Tech Strategy and Cloud design for Azure, Multi-Cloud & Hybrid-Cloud" />
         </div>
         <div className="w-screen h-screen relative pt-6 pl-12 pr-12">
           <Image
@@ -64,7 +64,7 @@ const Banner = () => {
             alt="Databricks"
             className="w-screen h-screen relative responsive"
           />
-          <BannerText title="Databricks Analytics Accelerators & Optimized platform" />
+          <BannerText title="Databricks as Foundational Data Platform for Machine Learning & Business Analytics" />
         </div>
         <div className="w-screen h-screen relative pt-6 pl-12 pr-12">
           <Image
