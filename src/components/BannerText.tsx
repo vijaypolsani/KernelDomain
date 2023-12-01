@@ -16,7 +16,7 @@ const BannerText = ({ title }: Props) => {
     setDetails(details+1)
   }
     return (
-    <div className="hidden lg:inline-block absolute top-0 left-0 w-full h-full">
+    <div className="hidden lg:inline-block  absolute top-0 left-0 w-full h-full">
       <Container className="flex h-full flex-col gap-y-6 justify-center">
         <motion.h2
           initial={{ y: 30, opacity: 0 }}
@@ -30,9 +30,9 @@ const BannerText = ({ title }: Props) => {
           initial={{ y: 40, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
-          className="text-2xl text-slate-50"
+          className="text-lg text-slate-50"
         >
-          Technology strategy that guides through changing times and aligns future roadmap.
+          Technology strategy, products, and services accelerating your growth engines
         </motion.h3>
         <motion.div
           initial={{ y: 50, opacity: 0 }}

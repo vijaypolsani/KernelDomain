@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import bannerone from "@/images/bannerone.jpg";
 import bannertwo from "@/images/bannertwo.jpg";
 import bannerthree from "@/images/bannerthree.jpg";
-import bannerfour from "@/images/bannerfour.jpg";
 import bannerfive from "@/images/bannerfive.jpg";
 import bannersix from "@/images/bannersix.jpg";
 import bannerseven from "@/images/bannerseven.jpg";
@@ -49,9 +48,12 @@ const Banner = () => {
       <Slider {...settings}>
         <div className="w-screen h-screen relative pt-6 pl-12 pr-12">
           <Image
+            height= {500}
+            quality={50}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src={bannerone}
             alt="Tech Strategy and Cloud Design"
-            className="w-screen h-screen relative"
+            className="w-screen h-screen relative responsive"
             priority
           />
           <BannerText title="Tech Strategy and Cloud design for Azure, Multi-Cloud & On-Premise" />
@@ -60,7 +62,7 @@ const Banner = () => {
           <Image
             src={bannertwo}
             alt="Databricks"
-            className="w-screen h-screen relative"
+            className="w-screen h-screen relative responsive"
           />
           <BannerText title="Databricks Analytics Accelerators & Optimized platform" />
         </div>
@@ -68,7 +70,7 @@ const Banner = () => {
           <Image
             src={bannerthree}
             alt="Snowflake"
-            className="w-screen h-screen relative"
+            className="w-screen h-screen relative responsive"
           />
           <BannerText title="Snowflake Warehouse Accelerators & Solutions" />
         </div>
@@ -76,7 +78,7 @@ const Banner = () => {
           <Image
             src={bannerfive}
             alt="CESB"
-            className="w-screen h-screen relative"
+            className="w-screen h-screen relative responsive"
           />
           <BannerText title="Composite Enteprise Service Bus [CESB]" />
         </div>
@@ -84,7 +86,7 @@ const Banner = () => {
           <Image
             src={bannersix}
             alt="AMP"
-            className="w-screen h-screen relative"
+            className="w-screen h-screen relative responsive"
           />
           <BannerText title="Adaptive metadata driven data pipelines [AMP]" />
         </div>
@@ -92,9 +94,9 @@ const Banner = () => {
           <Image
             src={bannerseven}
             alt="OP-CUDA"
-            className="w-screen h-screen relative"
+            className="w-screen h-screen relative responsive"
           />
-          <BannerText title="GPU optimized processing design and engineering solutions [OP-CUDA]" />
+          <BannerText title="GPU optimized design and solutions [OP-CUDA]" />
         </div>
       </Slider>
     </div>
