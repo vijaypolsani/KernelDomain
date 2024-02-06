@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vijaypolsani/KernelDomain/static/css/main.431b0579.chunk.css",
+    "main.js": "/vijaypolsani/KernelDomain/static/js/main.002450ef.chunk.js",
+    "main.js.map": "/vijaypolsani/KernelDomain/static/js/main.002450ef.chunk.js.map",
+    "runtime-main.js": "/vijaypolsani/KernelDomain/static/js/runtime-main.f4b4a7bc.js",
+    "runtime-main.js.map": "/vijaypolsani/KernelDomain/static/js/runtime-main.f4b4a7bc.js.map",
+    "static/js/2.cd62f5c8.chunk.js": "/vijaypolsani/KernelDomain/static/js/2.cd62f5c8.chunk.js",
+    "static/js/2.cd62f5c8.chunk.js.map": "/vijaypolsani/KernelDomain/static/js/2.cd62f5c8.chunk.js.map",
+    "index.html": "/vijaypolsani/KernelDomain/index.html",
+    "precache-manifest.b24c8ce8616b690d734516596b0f9523.js": "/vijaypolsani/KernelDomain/precache-manifest.b24c8ce8616b690d734516596b0f9523.js",
+    "service-worker.js": "/vijaypolsani/KernelDomain/service-worker.js",
+    "static/css/main.431b0579.chunk.css.map": "/vijaypolsani/KernelDomain/static/css/main.431b0579.chunk.css.map",
+    "static/js/2.cd62f5c8.chunk.js.LICENSE.txt": "/vijaypolsani/KernelDomain/static/js/2.cd62f5c8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4b4a7bc.js",
+    "static/js/2.cd62f5c8.chunk.js",
+    "static/css/main.431b0579.chunk.css",
+    "static/js/main.002450ef.chunk.js"
+  ]
+}
