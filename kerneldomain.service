@@ -1,0 +1,19 @@
+[Unit]
+Description=KernelDomain WebSite service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=bitnami
+# WorkingDirectory=/etc/repmgr
+# ExecStartPre=/bin/bash -c 'echo -e "\n"  `date +"%Y/%m/%d %a, %X"`": STARTING \n"  >> pgha.log'
+# ExecStart=/bin/bash -c "python3 pg_high_availability.py  &>> pgha.log"
+ExecStart=sudo /bin/bash /home/bitnami/runtime/KernelDomain/start.sh &
+StandardOutput=null
+
+[Install]
+WantedBy=multi-user.target
+Alias=kerneldomain.service
