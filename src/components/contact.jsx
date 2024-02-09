@@ -9,6 +9,7 @@ const initialState = {
 };
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [status, setStatus] = useState(undefined)
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
@@ -19,20 +20,27 @@ export const Contact = (props) => {
     const newWindow = window.open(url, "_blank", "noopener,noreferrer")
     if (newWindow) newWindow.opener = null
   };
+
+  const [isOpen, setIsOpen] = useState(true);
+  function toggle() {
+    setIsOpen((isOpen) => !isOpen);
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault();
+    toggle()
     console.log(name, email, message);
-
     /* {replace below with your own Service ID, Template ID and Public Key from your EmailJS account }*/
-
     emailjs.sendForm("service_vsi7plb", "template_b46f6w2", e.target, "JqkTKyCBjWf_Jab6R")
       .then(
         (result) => {
           console.log(result.text);
           clearState();
+          setStatus({ type: 'success' });
         },
         (error) => {
           console.log(error.text);
+          setStatus({ type: 'error', error });
         }
       );
   };
@@ -49,6 +57,8 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
+              <div className="row">
+              {isOpen &&
               <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
@@ -97,10 +107,16 @@ export const Contact = (props) => {
                   Send Message
                 </button>
               </form>
+              }
+              </div>
+            {status?.type === 'success' && <h3 className="section-title fa fa-flag-o">     Message sent</h3>}
+            {status?.type === 'error' && (
+                <h3 className="section-title fa fa-frown-o">    Something is not working!</h3>
+            )}
             </div>
           </div>
-            <div id="row" className="contact-item">
-              <div className="col-md-3 col-md-offset-1 contact-info">
+        <div id="row" className="contact-item">
+          <div className="col-md-3 col-md-offset-1 contact-info">
                 <h3>Contact Info</h3>
                 <div className="contact-item">
                   {props.data ? props.data.address.map((item, i) => (
@@ -150,7 +166,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2024 Kernel Domain Inc.
+            &copy; 2024 Kernel Domain
           </p>
         </div>
       </div>

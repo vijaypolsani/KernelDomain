@@ -475,6 +475,11 @@ header .intro-text {
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
+#contact .section-title h3  {
+  font-size: 18px;
+  color: #ffff;
+  text-align: center;
+}
 #contact .section-title h2::after {
   position: absolute;
   content: "";
