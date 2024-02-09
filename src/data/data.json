@@ -1,10 +1,10 @@
 {
   "Header": {
-    "title": "Kernel Domain Ventures",
-    "paragraph": "Provider of technology, infrastructure, and software to hyper-scale businesses. Our solutions are buit on A.I foundational data to generate innovative insights. Our products derive efficiencies by auotmation powered by insights from Machine Learning based inter-disciplinary LLM models."
+    "title": "Kernel Domain Innovations",
+    "paragraph": "Provider of technology, infrastructure, and software to hyper-scale businesses. Our solutions are built on A.I foundational data to generate innovative insights. Our products derive efficiencies by automation powered by insights from Machine Learning based inter-disciplinary LLM models."
   },
   "About": {
-    "paragraph": "Our technology solutions are targeted for Pharma Drug Discovery, Financial Services,and Secure Technology Infrastructure",
+    "paragraph": "Our technology solutions are targeted for Pharma Drug Discovery, Financial Services, and Secure Technology Infrastructure",
     "Why": [
       "Tech Strategy and Architecture solutions for Multi-Cloud, Hybrid & On-Premise",
       "Data Lakehouse to Warehouse blueprints & managed solution platform [Databricks, Snowflake, Cloud-Native]",
@@ -158,7 +158,7 @@
     {
       "icon": "fa fa-magic",
       "title": "Posture Defender",
-      "text": "Secure technology strategy defence and real-time mitigation management product. provides detailed visibility into the security state of your assets and workloads, and provides hardening guidance to help you efficiently and effectively improve your security posture. Continually assesses your resources against security standards that are defined for your cloud subscriptions, accounts, and projects. Defender for Cloud issues security recommendations based on these assessments."
+      "text": "Secure technology strategy defense and real-time mitigation management product. provides detailed visibility into the security state of your assets and workloads, and provides hardening guidance to help you efficiently and effectively improve your security posture. Continually assesses your resources against security standards that are defined for your cloud subscriptions, accounts, and projects. Defender for Cloud issues security recommendations based on these assessments."
     }
   ]
 }
