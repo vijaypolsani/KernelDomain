@@ -166,7 +166,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2024 Kernel Domain
+            &copy; 2025 Kernel Domain
           </p>
         </div>
       </div>

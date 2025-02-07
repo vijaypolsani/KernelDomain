@@ -4,10 +4,10 @@
     "paragraph": "Provider of technology, infrastructure, and software to hyper-scale businesses. Our solutions are built on A.I foundational data to generate innovative insights. Our products derive efficiencies by automation powered by insights from Machine Learning based inter-disciplinary LLM models."
   },
   "About": {
-    "paragraph": "Our technology solutions are targeted for Pharma Drug Discovery, Financial Services, and Secure Technology Infrastructure",
+    "paragraph": "Our technology solutions are targeted for Pharma Drug Discovery, Financial Services leveraging Secure Infrastructure",
     "Why": [
       "Tech Strategy and Architecture solutions for Multi-Cloud, Hybrid & On-Premise",
-      "Data Lakehouse to Warehouse blueprints & managed solution platform [Databricks, Snowflake, Cloud-Native]",
+      "Data Lakehouse to Warehouse blueprints & managed solution platform [Databricks, Cloud-Native]",
       "Secure Technology Infrastructure Accelerators & Bespoke solutions"
     ],
     "Why2": [
@@ -71,13 +71,13 @@
     },
     {
       "icon": "fa fa-plane",
-      "name": "Technical Strategy & Engineering Roadmaps",
+      "name": "Technical Strategy Blueprints",
       "text": "Tech Strategy and Architecture solutions for Multi-Cloud, Hybrid & On-Premise."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Technology Posture Defender",
-      "text": "Secure Technology Infrastructure Accelerators & Bespoke solutions."
+      "name": "Secure Technology Infrastructure",
+      "text": "Cloud Infrastructure Accelerators & Bespoke solutions."
     }
   ],
   "Testimonials": [
@@ -120,23 +120,13 @@
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Krishna Kalakuntla",
+      "name": "Rohan Polsani",
       "job": "Managing Partner"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Shiva Gonuguntla",
-      "job": "Managing Partner"
-    },
-    {
-      "img": "img/team/08.jpg",
-      "name": "Catherene (Cathy) Phelan",
-      "job": "Project Assistant"
     }
   ],
   "Contact": {
     "address":[
-    "4 Embarcadero Center, San Francisco, CA 94111",
+    "12766 Brook Ridge Dr, Frisco, TX - 75035, USA",
     "Plot 50, Cyber Village Rd 3, Cyber Village, Kondapur, Hyderabad, Telangana 500084, India"
   ],
     "phone": "+1 (650)409-7447",
@@ -148,17 +138,16 @@
     {
       "icon": "fa fa-stethoscope",
       "title": "Intelli Cure",
-      "text": "A.I Powered accelerated drug discovery and formulations. Drive innovation in A.I and in-silico clinical trial simulations to foster bridge gaps in inter-disciplinary biomedical research, data science, and software development, ensuring a seamless flow across domains. Accelerate innovations powered by LLM models with in-silico medicine standard as a practice in drug discovery through a collaborative ecosystem of patients, clinicians, academics, industries, policy makers, regulators & payers."
+      "text": "A.I Powered accelerated drug discovery and formulations. Drive innovation in A.I and in-silico clinical trial simulations to foster bridge gaps in inter-disciplinary biomedical research, data science, and software development, ensuring a seamless flow across domains. Accelerate innovations powered by LLM models with in-silico drug trails."
+    },    {
+      "icon": "",
+      "title": "",
+      "text": ""
     },
     {
       "icon": "fa fa-lightbulb-o",
       "title": "Equity Market",
       "text": "Portfolio management with real-time risk adjusted active and alternate securities investments. AI-driven risk assessment models evaluate an investor's risk tolerance based on various factors such as age, financial goals, income stability, insurance, long-term to short term liquidity, and expenses, providing a more accurate risk profile."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Posture Defender",
-      "text": "Secure technology strategy defense and real-time mitigation management product. provides detailed visibility into the security state of your assets and workloads, and provides hardening guidance to help you efficiently and effectively improve your security posture. Continually assesses your resources against security standards that are defined for your cloud subscriptions, accounts, and projects. Defender for Cloud issues security recommendations based on these assessments."
     }
   ]
 }
